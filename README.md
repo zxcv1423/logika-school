@@ -93,3 +93,211 @@
     </body>
 
 </html>
+
+
+body {
+    font-family:  sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+header {
+    background-color: white;
+    padding: 20px;
+    border-bottom: 2px solid #eee;
+    text-align: center;
+    top: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #531092;
+    font-weight: 600;
+    margin: 0 15px;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    padding: 8px 12px;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #531092;
+    border-radius: 20px;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 42px;
+    color: #531092;
+}
+
+h2 {
+    text-align: center;
+    margin: 60px 0 20px;
+    font-size: 32px;
+    color: #531092;
+}
+
+.about h3 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 24px;
+    color: #531092;
+}
+
+
+.about {
+    background-color: white;
+    margin: 30px auto;
+    padding: 25px;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    line-height: 1.8;
+    text-align: justify;
+}
+
+
+.head_img {
+    display: block;
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+.slogan_text {
+    text-align: center;
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 40px;
+    font-style:normal;
+}
+
+.principles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 20px;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 20px;
+}
+
+.principle {
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover, .principle:hover {
+    transform:scale(100px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+.product:hover, .principle:hover {
+    transform:scale(100px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+.catalog .product img {
+    width: 50%;  
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.principle img {
+    width: 60%;
+    border-radius: 8px;
+}
+
+#signup {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.signup-button {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: not-allowed;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.signup-note {
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
+}
+
+
+footer {
+    background-color: #531092;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 60px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h3{
+    color: white;
+    font-size: 30px;
+}
+
+
+.call-button {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: not-allowed;
+    margin-top: 10px;
+}
+
+.call-note {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
